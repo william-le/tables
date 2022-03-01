@@ -1,0 +1,33 @@
+{
+  "name": "tables",
+  "version": "1.0.0",
+  "description": "A Discord bot that prepares temporary voice channels and cleans them when they aren't in use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-le/tables.git"
+  },
+  "author": "William Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/william-le/tables/issues"
+  },
+  "homepage": "https://github.com/william-le/tables#readme",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-config-prettier": "8.4.0",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "pg": "^8.7.3"
+  }
+}
